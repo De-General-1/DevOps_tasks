@@ -1,0 +1,24 @@
+User Profile Management Script
+This Python script helps users manage their personal profile information stored in a text file named .profile.txt in their home directory. It allows users to view, update, and create their profile, ensuring their information is accurate and up-to-date.
+
+Functionality:
+Username Detection: Automatically retrieves the current user's username.
+Profile Verification: Checks if a profile already exists and displays the user's information.
+Input Validation: Ensures that name, phone number, and email address are entered in a correct format.
+
+Profile Creation and Update: If no profile exists, or if the existing information is outdated, the script prompts the user to enter their details.
+
+Running the Script
+Run the Script: Execute the script like when running a normal python file command:
+
+User Interaction
+The script will greet you by your username and check for your profile information.
+If your profile is found, you will see your name, phone number, and email address.
+You will be asked if the information is up-to-date:
+If yes, you can continue using the terminal.
+If no, you will be prompted to update your profile.
+If no profile exists, the script will guide you through creating one by asking for your name, phone number, and email address.
+Input Format
+Name: Any string (no specific format, so any string).
+Phone Number: A valid phone number (10 or 11 digits).
+Email Address: A valid email format (it must contain "@" and ".").
